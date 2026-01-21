@@ -314,27 +314,12 @@ main {
 }
 
 .product-image {
-    height: 180px;
-    border-radius: 16px;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 12px;
-}
-
-.image-one {
-    background-image: linear-gradient(130deg, #d4b59b, #a1674c);
-}
-
-.image-two {
-    background-image: linear-gradient(130deg, #cbe2dc, #5e9085);
-}
-
-.image-three {
-    background-image: linear-gradient(130deg, #f1cfb5, #d07a50);
-}
-
-.image-four {
-    background-image: linear-gradient(130deg, #d7d7df, #7a7a8a);
+  height: 180px;
+  border-radius: 16px;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 12px;
+  background: linear-gradient(130deg, #d4b59b, #a1674c);
 }
 
 .about-grid {
